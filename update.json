@@ -1,0 +1,37 @@
+{
+ "version": "1.4.0",
+ "notes": "新增：使用指南（每个功能都有演示视频）、在线更新、发票夹（发票/行程单自动配对、QQ 邮箱自动收）、我的分红、上传已做好的成本单；转账备注优先归类；手记的账和账单自动合并不重复。",
+ "min_full": "1.4.0",
+ "code": {
+  "url": "https://github.com/Dino12138/jizhangben-releases/releases/download/v1.4.0/jizhangben-code-1.4.0.zip",
+  "mirrors": [
+   "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/jizhangben-code-1.4.0.zip",
+   "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/jizhangben-code-1.4.0.zip",
+   "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/jizhangben-code-1.4.0.zip"
+  ],
+  "sha256": "0b4143d33fda44bb84a45f83d21a4b0279ab3646261bf57af2a4f39f64eb2802",
+  "size": 12859472
+ },
+ "full": {
+  "url": "https://github.com/Dino12138/jizhangben-releases/releases/download/v1.4.0/JiZhangBen-1.4.0.dmg",
+  "parts": [
+   [
+    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-aa",
+    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-aa",
+    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-aa"
+   ],
+   [
+    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-ab",
+    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-ab",
+    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-ab"
+   ],
+   [
+    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-ac",
+    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-ac",
+    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@6eb70541596d07b0f9a3a01b3ce6db23e3474f59/dist/JiZhangBen-1.4.0.dmg.part-ac"
+   ]
+  ],
+  "sha256": "5fbf527f4f4ad01b03004acd0dacfb1d3a7cd3a805b6396f05fad86cd735a309",
+  "size": 96318999
+ }
+}
