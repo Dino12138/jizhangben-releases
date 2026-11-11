@@ -1,38 +1,38 @@
 {
- "version": "1.5.0",
- "notes": "项目页新增「钱怎么走的」：甲方 → 中间方 → 执行方 → 我，每一方的名字、点数、税点都能直接改，和利润测算同步，并自动对比实际到账；开出去的发票可记开票方，自动挂到对应那段转款下。备用金可设置有一部分在助理手里：分别算出她手上还剩多少、还有多少没报销给你。我的分红新增「分红提成」（从自己那份里付给别人的提成），转账手续费造成的小差额可一键算结清。新增「项目报销」「分红转出」「项目款转出」三种子类，各个记账入口同步。导入账单时和手记重复的（含生活账）改为列出来让你确认；记账本里重复的分类自动合并；修复若干问题。",
- "min_full": "1.4.0",
+ "version": "1.6.0",
+ "notes": "改成真正的 Mac 程序窗口：双击打开就是一个窗口，顶上「项目台 / 记账本」两个页签（⌘1 / ⌘2 切换），不再跳浏览器；导出 Excel、看发票原件、上传发票都在窗口里完成。同步联动：任何一边记账或改账，几秒内总览、我的钱、交易日历、待处理和记账本列表都会自动更新。记一笔、编辑一笔在保存前就显示各账户余额会怎么变，保存后再提示实际变化；编辑转账可以改转出账户和金额，转账说明文字始终和实际账户一致；账户卡片显示最近一笔。项目页新增「钱怎么走的」（每一方的名字、点数、税点都能改，和利润测算同步），利润测算逐项列出「怎么算的」并支持自定义公式；开出去的发票和成本单用同一套发票格（缩略图、从邮箱 / 发票夹选、拖拽、粘贴）。导入账单时品牌总称、付款平台不再自动乱归项目。导出文件、运行日志、临时文件自动清理，软件不会越用越大。这次需要完整更新一次（约 1 分钟，数据不动）。",
+ "min_full": "1.6.0",
  "code": {
-  "url": "https://github.com/Dino12138/jizhangben-releases/releases/download/v1.5.0/jizhangben-code-1.5.0.zip",
+  "url": "https://github.com/Dino12138/jizhangben-releases/releases/download/v1.6.0/jizhangben-code-1.6.0.zip",
   "mirrors": [
-   "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/jizhangben-code-1.5.0.zip",
-   "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/jizhangben-code-1.5.0.zip",
-   "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/jizhangben-code-1.5.0.zip"
+   "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/jizhangben-code-1.6.0.zip",
+   "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/jizhangben-code-1.6.0.zip",
+   "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/jizhangben-code-1.6.0.zip"
   ],
-  "sha256": "2b2b6765202fabfe9917213246af49a129a0659bc19387ac47bf4fbfbcd1ff06",
-  "size": 12991541
+  "sha256": "e314344b95b976309aafaea4625f0d3a8323a323e6e1f431941c74232cd7f243",
+  "size": 13005991
  },
  "full": {
-  "url": "https://github.com/Dino12138/jizhangben-releases/releases/download/v1.5.0/JiZhangBen-1.5.0.dmg",
+  "url": "https://github.com/Dino12138/jizhangben-releases/releases/download/v1.6.0/JiZhangBen-1.6.0.dmg",
   "parts": [
    [
-    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-aa",
-    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-aa",
-    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-aa"
+    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-aa",
+    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-aa",
+    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-aa"
    ],
    [
-    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-ab",
-    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-ab",
-    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-ab"
+    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-ab",
+    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-ab",
+    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-ab"
    ],
    [
-    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-ac",
-    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-ac",
-    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@f63dea01ef09bf43528debc7bb2aba8d22172180/dist/JiZhangBen-1.5.0.dmg.part-ac"
+    "https://gcore.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-ac",
+    "https://fastly.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-ac",
+    "https://cdn.jsdelivr.net/gh/Dino12138/jizhangben-releases@0ead8d1c7e52ffabb18cfe8bfb5995c23b484979/dist/JiZhangBen-1.6.0.dmg.part-ac"
    ]
   ],
-  "sha256": "59c95b6f3d96ffd7882906ba7149e8759bc2c677671367597fffc6c839342d65",
-  "size": 97122254
+  "sha256": "9badc2d6be685052c7e9b86d759bceef9d92660420b67472208ea164af090b20",
+  "size": 97123720
  },
- "sig": "3hTg8bTxvuOLOI7vFAhNkILd8+uqbcUd6lm8Azs8+zlq5ZOvpEf0lM+goord1aIDJiexo8igjVf5YydnJl+HBg=="
+ "sig": "MOhMavZXWbS5OQONlkkfyTMORuFXNnuRZbBXQpIJO1CMjwxdOYiHaYo1Lw8FVDn3cWJoIpNOsXQ2IHK4iuerDg=="
 }
